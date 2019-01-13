@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Reach the boat!</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="background">
+  <div class="container" id="container">
+
+    <div class="header">
+      <h3 class="title">REACH THE BOAT!</h3>
+    </div>
+
+    <div id="canvas"></div>
+
+    <div class="information">
+      <div class="horizontal">
+        <span class="label">Level:</span><span class="value" id="level-counter">1</span>
+      </div>
+      <span class="label">Current player:</span>
+      <img src="./images/char-cat-girl-small.png">
+    </div>
+
+    <!-- Modal dialog -->
+    <div class="is-hidden modal-overlay">
+      <div class="modal">
+        <section class="modal-information">
+          <p class="modal-text">Congratulations!!  You  won  this  game!!</p>
+          <p class="modal-text" id="current-level"></p>
+        </section>
+        <menu class="menu-information">
+          <button class="modal-button" id="reset-button-modal">Reset the game and try again</button>
+          <button class="modal-button" id="levelling-button-modal">Try the next level</button>
+        </menu>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="js/resources.js"></script>
+  <script src="js/app.js"></script>
+   <script src="js/engine.js"></script>
+</body>
+</html>

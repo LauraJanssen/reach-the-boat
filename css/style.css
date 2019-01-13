@@ -1,0 +1,132 @@
+.background {
+  text-align: center;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  max-width: 95%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  flex-wrap: wrap;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-family: gamePlayed, Times;
+  font-size: 26px;
+  color: white;
+  margin: 20px;
+  margin-top: 50px;
+}
+
+.label {
+  padding: 10px;
+}
+
+.horizontal {
+  flex-direction: row;
+}
+
+@font-face {
+  font-family: arcadeGameFont;
+  src: url("../fonts/arcade_classic_pizz/ARCADECLASSIC.TTF");
+}
+
+@font-face {
+  font-family: gamePLayed;
+  src: url("../fonts/game_played/Game\ Played.otf");
+}
+
+canvas {
+  display:inline-block;
+  vertical-align: bottom;
+}
+
+.title {
+  font-family: gamePlayed, Times;
+  font-size: 26px;
+  color: white;
+  margin: 0;
+}
+
+/* Modal */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal {
+    font-family: arcadeGameFont, Times;
+    font-size: 26px;
+    color: green;
+    width: auto;
+    max-width: 95%;
+    max-height: 95%;
+    overflow-y: scroll;
+    position: relative;
+    margin: auto;
+    border: 15px solid transparent;
+    padding: 15px;
+    border-image-source: url("../images/emerald-border.png");
+    border-image-slice: 100 87 98 90;
+    border-image-width: 20px 20px 20px 20px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: round round;
+    background-color: black;
+  }
+
+  .modal-information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .modal-text {
+    margin-block-end: 1px;
+  }
+
+  .is-hidden {
+    visibility: hidden;
+  }
+
+  .modal-button {
+    margin: 3px;
+    font-family: arcadeGameFont, Times;
+    font-size: 20px;
+  }
+
+  .menu-information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 20px;
+    padding: 0;
+  }
