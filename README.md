@@ -10,7 +10,7 @@ The player cannot move of the board.
 If the player reaches the boat, the level is increased and he can try again, in order to keep levelling up.
 
 ### External sources used
-[fontspace - chequered ink](https://www.fontspace.com/chequered-ink/game-played): game played font
+[fontspace - chequered ink](https://www.fontspace.com/chequered-ink/game-played): game played font   
 [dafont](https://www.dafont.com/arcade-classic-pizz.font): classic arcade font
 
 ### How to Run:
